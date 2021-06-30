@@ -1,0 +1,51 @@
+h1{
+    color: #358492;
+    margin: 30px;
+}
+.header{
+    background-color: #573829;
+    border-style: inset;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 5px solid red;
+    margin: 20px;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami{
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+    padding: 35px;
+    margin: 20px;
+}
+body{
+    background-color: lightgreen;
+    border-style: inset;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.site-description{
+    color: rgb(0, 191, 255);
+    font-family: "Helvetica";
+    font-size: 30px;
+}
